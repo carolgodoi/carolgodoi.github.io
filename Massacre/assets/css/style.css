@@ -1,0 +1,101 @@
+body{
+     color: white;
+}
+
+.logo{
+    width: 150px;
+    margin: 10px 0px 10px 50px;
+}
+
+.menu{
+    margin-right: 50px;
+    font-family: 'grieves';
+    font-size: 20px;
+}
+
+.banner{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'grieves';
+    font-size: 75px;
+    
+}
+
+.sobre-nos-img{    
+    padding: 0px 50px 0px 50px;
+}
+
+.sobre-nos-img > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.titulo{
+    margin-top: 100px;
+}
+
+.dark-container{
+    background-image: url('../img/patern.png');
+    color: white;
+}
+
+.white-container{
+    background-image: url('../img/patern-2.png');
+    color: black;
+}
+
+.sobre-nos-txt{
+    margin-top: 6%;
+}
+
+.container-padding{
+    padding:0px 0px 100px 0px;
+}
+
+.cardapio{
+    padding: 0px 50px 0px 50px;
+}
+
+.cardapio-img{    
+    width: 100%;
+    border-radius: 10px;
+}
+
+.white-parallax{
+    background-image: url('../img/patern-2.png');
+    color: black;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-titulo{
+    margin-top: -10px;
+}
+
+.formulario-contato{
+    margin-left: 50px;
+}
+
+.fab,
+.fas {
+    font-size: 25px !important;
+    margin: 0px 5px 10px 0px;
+}
+
+.icon-text{
+    font-size: 20px;
+}
+
+.icon-contact{
+    margin-left: 50px;
+    margin-top: 5%;
+}
