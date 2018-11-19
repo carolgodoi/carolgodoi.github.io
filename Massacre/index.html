@@ -32,8 +32,8 @@
                 <ul class="nav navbar-nav navbar-right menu">
                     <li><a href="#">Home</a></li>
                     <li><a class="ancora" href="#quem_somos">Quem somos</a></li>
-                    <li><a class="ancora" href="#cardapio">Menu</a></li>
-                    <li><a class="ancora" href="#rotas">Rota</a></li>
+                    <li><a class="ancora" href="#menu">Menu</a></li>
+                    <li><a class="ancora" href="#rota">Rota</a></li>
                     <li><a class="ancora" href="#contato">Contato</a></li>
                 </ul>
             </div>
@@ -101,7 +101,7 @@
 <!--################### FIM DO QUEM SOMOS ###################-->
     
 <!--################### CARDÁPIO ###################-->
-    <a name="cardapio"></a>
+    <a name="menu"></a>
     <div class="container-fluid">
         <div class="row container-padding white-parallax">
             <div class="col-md-12 col-lg-12 cl-sm-12">
@@ -115,7 +115,7 @@
                     <center><button class="btn btn-warning form-control" onclick="download_cardapio();">Faça o Download do nosso cardápio</button></center>
                 </div>
                 <div class="col-md-4 col-lg-4 col-sm-4">
-                    <center><button class="btn btn-danger form-control">Confira nossas Promoções!</button></center>
+                    <center><button class="btn btn-danger form-control" data-toggle="modal" data-target="#myModal" >Confira nossas Promoções!</button></center>
                 </div>
             </div>
         </div>
@@ -124,12 +124,55 @@
 
 
 <!--################### MODAL PROMOÇÕES ###################-->
-
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!-- Modal content-->
+            <div class="modal-content dark-container">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><i class="fas fa-dollar-sign"></i> Confira nossas promoções:</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="conteiner-fluid">
+                        <div class="row">
+                            <!--COMBO 1-->
+                            <div class="col-md-12 col-lg-12 col-sm-12 combos">
+                                <div class="col-md-4 col-sm-4 col-lg-4">
+                                    <img src="assets/img/combo1.png">
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8">
+                                    <!--TEXTO COMBO 1-->12123123
+                                </div>
+                            </div>
+                            <!--COMBO 2-->
+                            <div class="col-md-12 col-lg-12 col-sm-12 combos">
+                                <div class="col-md-4 col-sm-4 col-lg-4">
+                                    <img src="assets/img/combo2.png">
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8">
+                                    <!--TEXTO COMBO 2-->12123123
+                                </div>
+                            </div>
+                            <!--COMBO 3-->
+                            <div class="col-md-12 col-lg-12 col-sm-12 combos">
+                                <div class="col-md-4 col-sm-4 col-lg-4">
+                                    <img src="assets/img/combo3.png">
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8">
+                                    <!--TEXTO COMBO 3-->12123123
+                                </div>
+                            </div>                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <!--################### FIM MODAL PROMOÇÕES ###################-->
 
 
 <!--################### ROTAS ###################-->
-    <a name="rotas"></a>
+    <a name="rota"></a>
     <div class="container-fluid">
         <div class="row dark-container container-padding">
             <div class="col-md-12 col-lg-12 cl-sm-12" style="margin-top: 100px;">
