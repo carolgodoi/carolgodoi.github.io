@@ -99,7 +99,7 @@ h1{
     font-size: 25px !important;
     margin: 0px 5px 10px 0px;
 }
-
+    
 .fa {
      font-size: 25px !important;
     margin: 20px 10px 5px 0px;
@@ -118,6 +118,17 @@ h1{
 a{
     cursor: pointer;
 }
+
+.promo-txt{
+    margin-top: 7%;
+}
+.promo3-txt{
+    margin-top: 5%;
+}
+.promo4-txt{
+    margin-top: 12%;
+}
+
 
 /* O container geral define a perspectiva */  
 .flip-container { perspective: 1000; }      

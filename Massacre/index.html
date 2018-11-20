@@ -33,11 +33,11 @@
             </div> 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a class="ancora" href="#quem_somos">Quem somos</a></li>
-                    <li><a class="ancora" href="#menu">Menu</a></li>
-                    <li><a class="ancora" href="#rota">Rota</a></li>
-                    <li><a class="ancora" href="#contato">Contato</a></li>
+                    <li><a href="#home" onclick="scroll_suave('home')">Home</a></li>
+                    <li><a href="#quem_somos" onclick="scroll_suave('quem_somos')">Quem somos</a></li>
+                    <li><a href="#menu" onclick="scroll_suave('menu')">Menu</a></li>
+                    <li><a href="#rota" onclick="scroll_suave('rota')">Rota</a></li>
+                    <li><a href="#contato" onclick="scroll_suave('contato')">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -46,6 +46,7 @@
     
     
 <!--################### CARROSSEL ###################-->
+    <a name="home" id="home">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -81,7 +82,7 @@
 <!--################### FIM DO CARROSSEL ###################-->
     
 <!--################### QUEM SOMOS ###################-->
-    <a name="quem_somos"></a>
+    <a name="quem_somos" id="quem_somos"></a>
     <div class="container-fluid">
         <div class="row dark-container container-padding">
             <div class="col-md-12 col-lg-12 cl-sm-12">
@@ -104,7 +105,7 @@
 <!--################### FIM DO QUEM SOMOS ###################-->
     
 <!--################### CARDÁPIO ###################-->
-    <a name="menu"></a>
+    <a name="menu" id="menu"></a>
     <div class="container-fluid">
         <div class="row container-padding white-parallax">
             <div class="col-md-12 col-lg-12 cl-sm-12">
@@ -128,7 +129,7 @@
 
 <!--################### MODAL PROMOÇÕES ###################-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog modal-md" role="document">
             <!-- Modal content-->
             <div class="modal-content dark-container">
                 <div class="modal-header">
@@ -140,29 +141,59 @@
                         <div class="row">
                             <!--COMBO 1-->
                             <div class="col-md-12 col-lg-12 col-sm-12 combos">
-                                <div class="col-md-4 col-sm-4 col-lg-4">
+                                <div class="col-md-6 col-sm-6 col-lg-6">
                                     <img src="assets/img/combo1.png">
                                 </div>
-                                <div class="col-md-8 col-sm-8 col-lg-8">
-                                    <!--TEXTO COMBO 1-->12123123
+                                <div class="col-md-6 col-sm-6 col-lg-6 promo-txt">
+                                    <!--TEXTO COMBO 1--> <p>O combo Jason é o nosso combo pequeno e é recomendado para para filhinhos da mamãe ou para pessoas que comem pouco.</p>
+                                    <ul>
+                                        <li>1 tipo de massa</li>
+                                        <li>1 tipo de molho</li>
+                                        <li>1 adicional</li>
+                                        <li><strong>R$17,90 </strong></li>
+                                    </ul>
                                 </div>
                             </div>
                             <!--COMBO 2-->
                             <div class="col-md-12 col-lg-12 col-sm-12 combos">
-                                <div class="col-md-4 col-sm-4 col-lg-4">
+                                <div class="col-md-6 col-sm-6 col-lg-6">
                                     <img src="assets/img/combo2.png">
                                 </div>
-                                <div class="col-md-8 col-sm-8 col-lg-8">
-                                    <!--TEXTO COMBO 2-->12123123
+                                <div class="col-md-6 col-sm-6 col-lg-6 promo-txt">
+                                    <!--TEXTO COMBO 2--><p>Qual é o seu molho favorito é o nome do nosso combo médio e é o mais pedido... e aí, qual é o seu?</p>
+                                    <ul>
+                                        <li>1 tipo de massa</li>
+                                        <li>1 tipo de molho</li>
+                                        <li>3 adicionais</li>
+                                        <li>1 bebida</li>
+                                        <li><strong>R$22</strong></li>
+                                    </ul>
                                 </div>
                             </div>
                             <!--COMBO 3-->
                             <div class="col-md-12 col-lg-12 col-sm-12 combos">
-                                <div class="col-md-4 col-sm-4 col-lg-4">
+                                <div class="col-md-6 col-sm-6 col-lg-6">
                                     <img src="assets/img/combo3.png">
                                 </div>
-                                <div class="col-md-8 col-sm-8 col-lg-8">
-                                    <!--TEXTO COMBO 3-->12123123
+                                <div class="col-md-6 col-sm-6 col-lg-6 promo3-txt">
+                                    <!--TEXTO COMBO 3--> <p>O bicho papão chegou para acabar com a sua fome! O combo Boogeyman é o combo monstro da casa, perfeito para atacar a aquela fome que tá te matando.</p>
+                                     <ul>
+                                        <li>1 tipo de massa</li>
+                                        <li>1 tipo de molho</li>
+                                        <li>5 adicionais</li>
+                                        <li>1 bebida</li>
+                                        <li><strong>R$30</strong></li>
+                                    </ul> 
+                                </div>
+                            </div>
+                              <!--COMBO 4-->
+                            <div class="col-md-12 col-lg-12 col-sm-12 combos">
+                                <div class="col-md-6 col-sm-6 col-lg-6">
+                                    <img src="assets/img/cartao-fidelidade.png">
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-6 promo4-txt">
+                                <p>Cartão fidelidade</p>
+                                <p>Na compra de 10 combos você ganha 1!</p>
                                 </div>
                             </div>                               
                         </div>
@@ -175,7 +206,7 @@
 
 
 <!--################### ROTAS ###################-->
-    <a name="rota"></a>
+    <a name="rota" id="rota"></a>
     <div class="container-fluid">
         <div class="row dark-container container-padding">
             <div class="col-md-12 col-lg-12 cl-sm-12" style="margin-top: 100px;">
@@ -190,58 +221,29 @@
                     </div>
                 </div></center>
             </div>
-            <div class="col-md-10 col-lg-10 cl-sm-10 col-md-offset-1 col-sm-offset-1 col-lg-offset-1" style="margin-top: 100px;">
+            <div class="col-md-8 col-lg-8 cl-sm-8 col-md-offset-2 col-sm-offset-2 col-lg-offset-2" style="margin-top: 100px;">
                 <center><div class="demo-gallery">
                     <ul id="lightgallery" class="list-unstyled row">
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg">
+                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="assets/img/galeria-1.png" data-src="assets/img/galeria-1.png">
                             <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
+                                <img class="img-responsive" src="assets/img/galeria-1.png">
                             </a>
                         </li>
 
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg">
+                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="assets/img/galeria-2.png" data-src="assets/img/galeria-2.png">
                             <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
+                                <img class="img-responsive" src="assets/img/galeria-2.png">
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="assets/img/galeria-3.png" data-src="assets/img/galeria-3.png" >
+                            <a href="">
+                                <img class="img-responsive" src="assets/img/galeria-3.png">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
                             <a href="">
                                 <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
                             </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            </a>
-                        </li>
-                        <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg" >
-                            <a href="">
-                                <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
                             </a>
                         </li>
                     </ul>
@@ -254,7 +256,7 @@
 
 
 <!--################### CONTATO ###################-->    
-    <a name="contato"></a>
+    <a name="contato" id="contato"></a>
     <div class="container-fluid">
         <div class="row white-parallax container-padding">
             <div class="col-md-12 col-lg-12 cl-sm-12">
@@ -338,8 +340,17 @@
     }
 
     $(document).ready(function(){
-        $('#lightgallery').lightGallery(); 
+        $('#lightgallery').lightGallery();        
     });
+
+    var $doc = $('html, body');
+    function scroll_suave(destino) {
+        $doc.animate({
+            scrollTop: $("#"+destino).offset().top
+        }, 800);
+        return false;
+    };
+
 </script>
 
 </html>
