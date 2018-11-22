@@ -29,11 +29,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <figure><img src="assets/img/logo.png" class="logo"></figure>
+                <figure onclick="scroll_to_top();" style="cursor: pointer;"><img src="assets/img/logo.png" class="logo"></figure>
             </div> 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right menu">
-                    <li><a href="#home" onclick="scroll_suave('home')">Home</a></li>
+                    <li><a href="#" onclick="scroll_to_top()">Home</a></li>
                     <li><a href="#quem_somos" onclick="scroll_suave('quem_somos')">Quem somos</a></li>
                     <li><a href="#menu" onclick="scroll_suave('menu')">Menu</a></li>
                     <li><a href="#rota" onclick="scroll_suave('rota')">Rota</a></li>
@@ -46,7 +46,6 @@
     
     
 <!--################### CARROSSEL ###################-->
-    <a name="home" id="home">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -350,6 +349,11 @@
         }, 800);
         return false;
     };
+
+    function scroll_to_top(){
+        $doc.animate({scrollTop: 0 }, 800);
+        return false;
+    }
 
 </script>
 
